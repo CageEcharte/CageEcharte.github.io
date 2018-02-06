@@ -1,0 +1,329 @@
+
+
+.bro{
+  background-image: url('https://imagizer.imageshack.com/v2/1600x1200q90/924/JMO2sb.jpg');
+  background-size: 100%;
+  min-height: 100%;
+  height: 750px;
+  position: relative;
+  -webkit-filter: grayscale(45%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(45%);
+  background-postion: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.box2{
+  background-image: url('https://imagizer.imageshack.com/v2/1600x1200q90/922/uOhKpX.jpg');
+  background-size: 100%;
+  -webkit-filter: grayscale(45%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(45%);
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#listOne{
+  list-style-type: none;
+  text-align: right;
+  margin-right: 130px;
+}
+
+#listTwo{
+  list-style-type: none;
+  margin-top: 40px;
+ font-size: 20px;
+
+}
+
+#listTwo li{
+  margin-top: 10px;
+}
+
+.socialList{
+  list-style-type: none;
+  float: left;
+  width: 100%;
+
+}
+
+.socialList li{
+  display: inline;
+}
+
+
+
+.yeah:link{
+  margin-left: -22px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+
+.yeah2:link{
+  color: white;
+  text-decoration: underline;
+  font-size: 50px;
+  font-weight: bold;
+  width: 75%;
+}
+
+.yeah2:hover{
+  color: #333333;
+  cursor: pointer;
+}
+
+.yeah3:link {
+  color: #111111;
+  text-decoration: underline;
+  font-size: 50px;
+  margin-left: 55px;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+
+
+
+.space{
+  margin-bottom: 60px;
+}
+
+
+.word{
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 170px;
+  font-family: 'Chewy', cursive;
+}
+
+iframe{
+  margin-left: 20px;
+  margin-top: 170px;
+
+}
+.aboutMe{
+  float: right;
+  margin-right: 20px;
+  font-family: 'Chewy', cursive;
+  font-size: 24px;
+  width: 45%;
+}
+
+
+@-webkit-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     {bottom:0;}
+}
+
+
+
+#social1{
+  color: white;
+  font-size: 50px;
+  margin-left: 20px;
+
+}
+
+#social2{
+  color: white;
+  font-size: 50px;
+  margin-left: 10px;
+}
+#social3{
+  color: white;
+  font-size: 50px;
+  margin-left: 10px;
+
+}
+
+
+#social1:hover{
+  color: #333333;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+#social2:hover{
+  color: #333333;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+#social3:hover{
+  color: #333333;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+#arrow{
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
+  margin-left: 300px;
+  position: relative;
+  bottom:0;
+  -webkit-animation:bounce 1s infinite;
+  cursor: pointer;
+}
+
+#arrow:hover{
+  color: #333333;
+}
+
+
+.base{
+  background-color:  #fafafa;
+  height: 720px;
+  display: inline-block;
+  width: 100%;
+}
+
+.baseEnd{
+  background-color: #fafafa;
+  height: 600px;
+  width: 100%;
+  font-family: 'Chewy', cursive;
+
+}
+
+.footer{
+  background-color: #333333;
+  height: 100px;
+  color: white;
+}
+.inner{
+  width: 2000px;
+  overflow: hidden;
+}
+
+.child{
+  float: right;
+  overflow: hidden;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.baseEnd .shows{
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.footP{
+  float: left;
+  color: white;
+  margin-top: 70px;
+  margin-bottom: -30px;
+  margin-left: -120px;
+
+
+}
+
+.cage {
+  float: right;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+
+
+
+#faceB{
+  color: white;
+  font-size: 40px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#ig{
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  float: left;
+  margin-top: 10px;
+}
+
+#you2{
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  float: left;
+  margin-top: 10px;
+}
+
+#faceB:hover{
+  color: #999999;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#ig:hover{
+  color: #999999;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#you2:hover{
+  color: #999999;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+    #yup {
+        display: none;
+
+    }
+
+    @media only screen and (max-width: 1000px){
+
+.bro{
+    background-image: url('https://imagizer.imageshack.com/v2/1600x1200q90/924/JMO2sb.jpg');
+    background-size: 100%;
+    min-height: 100%;
+    height: 750px;
+    position: relative;
+    -webkit-filter: grayscale(45%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(45%);
+    background-postion: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+.space{
+  margin-bottom: 0;
+}
+
+.aboutMe{
+  margin-top: 30px;
+}
+.base{
+  height: 1400px;
+}
+
+.baseEnd .shows{
+  margin-left: 10px;
+}
+
+#listTwo{
+  margin-left: -10px;
+}
+
+#arrow{
+ margin-top: 100px;
+}
+
+
+
+
+    }
