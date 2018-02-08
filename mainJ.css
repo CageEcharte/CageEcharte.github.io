@@ -28,6 +28,7 @@
 .container{
   height: 100%;
 }
+
 #listOne{
   list-style-type: none;
   text-align: right;
@@ -179,6 +180,12 @@ iframe{
 
 #arrow:hover{
   color: #333333;
+}
+
+.bro .socialContainer{
+  width: 100%;
+  min-height: 100%;
+  margin-bottom: 30px;
 }
 
 
