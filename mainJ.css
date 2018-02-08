@@ -92,7 +92,7 @@
 
 
 .space{
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 
@@ -115,6 +115,7 @@ iframe{
   font-family: 'Chewy', cursive;
   font-size: 24px;
   width: 45%;
+  margin-top: 50px;
 }
 
 
@@ -182,7 +183,7 @@ iframe{
   color: #333333;
 }
 
-.bro .socialContainer{
+.socialContainer{
   width: 100%;
   min-height: 100%;
   margin-bottom: 30px;
