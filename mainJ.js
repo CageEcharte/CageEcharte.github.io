@@ -3,10 +3,10 @@ jQuery(document).ready(function(){
   $(window).resize(function(){
           if(window.innerWidth < 1100) {
               $( "div" ).removeClass( "container" );
-              console.log("it works");
+              console.log("it really works");
           }
   });
-  
+
     jQuery(".yeah").mouseover(function(){
     jQuery(".yeah").css("background-color", "white");
       });
