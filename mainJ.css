@@ -1,5 +1,3 @@
-
-
 .bro{
   background-image: url('https://imagizer.imageshack.com/v2/1600x1200q90/924/JMO2sb.jpg');
   background-size: 100%;
@@ -28,6 +26,8 @@
 .container{
   height: 100%;
 }
+
+
 
 #listOne{
   list-style-type: none;

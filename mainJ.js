@@ -54,7 +54,12 @@ jQuery("#arrow").toggle( "bounce", {times: 3}, "slow" );
 //source paralax video
 
 //source background white space fix: https://teamtreehouse.com/community/removing-white-space-between-vertical-or-horizontal-divs
+$(window).resize(function(){
+        if(window.innerWidth < 1000) {
+            $( "div" ).removeClass( "container" );
 
+        }
+});
 
 
 });
