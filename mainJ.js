@@ -55,9 +55,9 @@ jQuery("#arrow").toggle( "bounce", {times: 3}, "slow" );
 
 //source background white space fix: https://teamtreehouse.com/community/removing-white-space-between-vertical-or-horizontal-divs
 $(window).resize(function(){
-        if(window.innerWidth < 1000) {
+        if(window.innerWidth < 1100) {
             $( "div" ).removeClass( "container" );
-
+            console.log("it works");
         }
 });
 
