@@ -9,6 +9,9 @@
   background-postion: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .box2{
@@ -24,7 +27,8 @@
 }
 
 .container{
-  height: 100%;
+     height: 100%;
+     position: relative;
 }
 
 
@@ -186,7 +190,7 @@ iframe{
 .socialContainer{
   width: 100%;
   min-height: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 
@@ -334,8 +338,17 @@ iframe{
   margin-left: 10px;
 }
 
+#listOne .yeah{
+  margin-right: -170px;
+}
 
+#listOne .yeah2{
+  margin-right: -170px;
+}
 
+#listOne .yeah3{
+  margin-right: -170px;
+}
 #listTwo{
   margin-left: -10px;
 }
@@ -351,6 +364,8 @@ iframe{
   margin-top: 0;
 
 }
+
+
 
 .cage{ margin-right: 30px; font-size: 25px;}
 
@@ -388,5 +403,6 @@ iframe{
 }
 .bro .word{
   font-size: 130px;
+  margin-left: -70px;
 }
     }
